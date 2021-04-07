@@ -1,0 +1,7 @@
+target/
+target-ide/
+.classpath
+.project
+.settings
+.vscode
+.checkstyle

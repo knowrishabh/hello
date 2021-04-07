@@ -7,7 +7,8 @@
  */
 package org.opendaylight.hello.impl;
 
-import org.opendaylight.controller.md.sal.binding.api.DataBroker;
+
+import org.opendaylight.mdsal.binding.api.DataBroker;
 import org.opendaylight.mdsal.binding.api.RpcProviderService;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.hello.rev191127.HelloService;
 import org.opendaylight.yangtools.concepts.ObjectRegistration;

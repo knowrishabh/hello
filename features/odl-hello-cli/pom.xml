@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>single-feature-parent</artifactId>
-        <version>6.0.4</version>
+        <version>7.0.7</version>
         <relativePath/>
     </parent>
 
@@ -17,18 +17,6 @@
     <packaging>feature</packaging>
 
     <name>OpenDaylight :: hello :: CLI [Karaf Feature]</name>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.opendaylight.controller</groupId>
-                <artifactId>mdsal-artifacts</artifactId>
-                <version>1.11.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
