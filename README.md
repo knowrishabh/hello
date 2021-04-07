@@ -29,6 +29,6 @@ mvn clean install -f dist
  * run distribution
 
 ```
-$ docker run -d --rm --name hello odl-hello
+$ docker run -d -p 8181:8181 --rm --name hello odl-hello
 $ docker exec -ti hello bash
 ```
